@@ -1647,6 +1647,7 @@ namespace PictureViewer
 
                 // The SmallChange property sets how many positions to move 
                 // if the keyboard arrows are used to move the slider.
+
                 trackBar2.SmallChange = 1;
 
                 leftSet.add(openFileDialog1.FileNames);

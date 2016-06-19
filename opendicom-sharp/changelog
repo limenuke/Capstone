@@ -1,0 +1,25 @@
+
+openDICOM#  0.1.1
+
+   * new features:
+      + DICOM 2007 dictionaries with better downgrade conformance by
+        retired attributes
+      + enhanced dictionary classes with retired property
+   * fixed bugs:
+      + added culture invariance to Decimal String (DS) encoding
+      + added exclusion of Sequence and NestedDataSet within Value.IsArray
+
+ -- Albert Gnandt (http://www.gnandt.com/)  2007-03-30
+
+
+openDICOM#  0.1.0
+
+   * initial release:
+      + full support of DICOM 2004 data element and UID dictionary
+      + support of all 27 DICOM value representations
+      + full read support of DICOM and ACR-NEMA files
+      + write support for DICOM as XML
+      + partial support for DICOM pixel data processing
+
+ -- Albert Gnandt  (http://www.gnandt.com/)  2006-03-01
+
